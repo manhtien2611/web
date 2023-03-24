@@ -1,0 +1,205 @@
+#container{
+    width:100%;
+    height:auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+header{
+    width:100%;
+    height:300px;
+    position: relative;
+}
+
+header .top-right{
+    width: 300px;
+    height: 50px;
+    background-color: orangered;
+    position: absolute;
+    top:0;
+    right: 0;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    font-variant: small-caps;
+}
+header .top-right a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding:5px;
+}
+header .top-right a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+header .company-info{
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+    box-shadow: 0 0 5px orangered;
+}
+header .company-info h1{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: white;
+    font-size: 35px;
+    border-bottom: 1px dotted red;
+    text-shadow: 0 0 5px orangered;
+    
+}
+header .company-info h3{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: orangered;
+    letter-spacing: 3px;
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    width:100%;
+    height:50px;
+    background-color: orangered;
+    
+    font-variant: small-caps;
+    font-size: larger;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    line-height: 50px;
+    margin:0 10px;
+}
+
+nav .ngon-ngu {
+    position: absolute;
+    bottom: 30px;
+    right:10px;
+    height: 67.5%;
+}
+
+nav a:hover{
+    color:red;
+    text-decoration:underline ;
+   
+}
+article{
+    width:70%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 0 5px gray;
+    margin:5px;
+    float: left;
+}
+aside{
+    width: 30%;
+    height: auto;
+    background-color:white;
+    float: left;
+}
+footer{
+    border-top: 5px double orangered;
+    clear:both;
+    width: 100%;
+    height:auto;
+    background-color: orangered;
+    line-height: 150px;
+    text-align: center;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+iframe[name=page]{
+    width:100%;
+    min-height: 500px;
+}
+aside a{
+    color:red;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    margin:0 10px;
+}
+aside a:hover{
+    color:blue;
+    text-decoration: underline;
+    line-height: 50px;
+    text-align: center;
+    margin:0 10px;
+}
+.vmenu{
+    width: 28.5%;
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu li{
+    list-style-type: none;
+
+}
+.vmenu a{
+    text-align: left;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: large;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+
+.vmenu a:hover{
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+
+.form-group{
+    margin: 10px 0px;
+}
+.form-control{
+    width: 98%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.form-control:focus{
+    background-color: yellow;
+    box-shadow: 0 0 3px red;
+    border-radius: 1px solid yellow;
+}
+.form-button{
+    padding: 8px 30px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: orangered;
+    box-shadow: inset 0 0 20px blue;
+}
+.form-button:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+.form-button:disabled{
+    color: darkgray;
+    box-shadow: inset 0 0 20px gray;
+}
+.chu{
+    font-variant: small-caps;
+    font-weight: bold;
+}
+#right{
+    float: right;
+}

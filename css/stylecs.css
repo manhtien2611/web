@@ -1,0 +1,10 @@
+header{
+    text-align: center;
+    color: orangered;
+}
+div h1,h3,h4{
+    color: orangered;
+}
+div h1{
+    text-align: center;
+}
